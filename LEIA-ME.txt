@@ -1,0 +1,20 @@
+# Protótipo Sialdrill — Acompanhamento de Obras
+
+## Como abrir
+1. Extraia o arquivo ZIP.
+2. Abra `index.html` no Chrome, Edge ou Firefox.
+3. O protótipo funciona localmente, sem instalação.
+
+## Funcionalidades
+- Indicadores por status.
+- Resumo visual por status e tipo de serviço.
+- Pesquisa textual e filtros por área, rua, tipo e status.
+- Tabela com os campos exportados da aba STATUS CHECKLIST.
+- Exportação dos resultados filtrados para CSV.
+- Layout responsivo para computador e celular.
+
+## Dados
+Os 20 registros válidos foram importados do CSV enviado nesta conversa. Linhas de resumo e linhas vazias de preenchimento foram ignoradas. O protótipo é uma cópia estática e não atualiza automaticamente quando a planilha Google Sheets muda.
+
+## Próximo passo para produção
+Para atualizar os dados automaticamente, configure uma integração de leitura com o Google Sheets (por exemplo, Apps Script/API com acesso somente aos campos necessários). Evite publicar a planilha inteira se houver informações internas.
